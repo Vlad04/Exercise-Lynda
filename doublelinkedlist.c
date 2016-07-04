@@ -81,8 +81,8 @@ int main() {
 	head = NULL; //empezamos con una lista vacia
 	
 	
-	add_node_tail(2); Print(); ReversePrint();
-	add_node_tail(1); Print(); ReversePrint();
-	add_node_head(3); Print(); ReversePrint();
-	add_node_tail(0); Print(); ReversePrint();
+	add_node_tail(2); print_head(); print_tail();
+	add_node_tail(1); print_head(); print_tail();
+	add_node_head(3); print_head(); print_tail();
+	add_node_tail(0); print_head(); print_tail();
 }
